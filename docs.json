@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Create your Email",
+            "group": "Dashboard",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -31,7 +31,51 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
-          }
+          },
+          {
+            "group": "Start Writing",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Posts",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Design",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Audience",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }          
         ]
       }
     ]
