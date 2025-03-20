@@ -71,7 +71,18 @@
               "audience/navigation",
               "audience/reusable-snippets"
             ]
-          }          
+          },          
+          {
+            "group": "Settings",
+            "pages": [
+              "settings/markdown",
+              "settings/code",
+              "settings/images",
+              "settings/settings",
+              "settings/navigation",
+              "settings/reusable-snippets"
+            ]
+          }             
         ]
       }
     ]
