@@ -1,88 +1,29 @@
 ---
-title: 'Markdown Syntax'
-description: 'Text, title, and styling in standard markdown'
-icon: 'text-size'
+title: "Dashboard"
+description: "Learn how to use the main Dashboard"
+icon: "text-size"
 ---
 
-## Titles
+## Overview
 
-Best used for section headers.
+LetterBucket's dashboard allows you to see in just a glance the main stats of your newsletter.
 
-```md
-## Titles
-```
+## ![images/dashboardmain.png](/dashboardmain1.png)
 
-### Subtitles
+Main statistics
 
-Best use to subsection headers.
+Here you can find the main numbers of your newsletter:
 
-```md
-### Subtitles
-```
+- **Total Subscribers:** This number represents all the people who have been added to your list and have confirmed their subscription
+- **Total Unique Opens: **Refers to the number of distinct individuals who have opened an email at least once. Even if a recipient opens the email multiple times, they are counted only once in this metric.
+- **Total Unique Clicks: **It's the number of distinct recipients who clicked on at least one link in an email. Even if a recipient clicks multiple links or the same link multiple times, they are counted only once in this metric.
 
-<Tip>
+## Your site
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+In the right side of the screen, you can see the URL of your site. You can copy the link and share it or you can directly click on Open Site to visit your page.
 
-</Tip>
+## Delivered posts
 
-## Text Formatting
+Here you can find a resume of the last newsletters that you sent out, and a basic overview of their statistics.
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
-
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
-
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
-
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
-
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
-
-## Linking to Pages
-
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
-
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
-
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
-
-## Blockquotes
-
-### Singleline
-
-To create a blockquote, add a `>` in front of a paragraph.
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+You can directly click on them to see more information or open the Posts page and see all of them.
