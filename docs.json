@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "LetterBucket local",
+  "name": "LetterBucket knowledge base",
   "colors": {
     "primary": "#000000",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -24,56 +24,52 @@
           {
             "group": "Dashboard",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "dashboard/markdown",
+              "dashboard/code",
+              "dashboard/images",
+              "dashboard/settings",
+              "dashboard/navigation",
+              "dashboard/reusable-snippets"
             ]
           },
           {
             "group": "Start Writing",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "writing/markdown",
+              "writing/code",
+              "writing/images",
+              "writing/settings",
+              "writing/navigation",
+              "writing/reusable-snippets"
             ]
           },
           {
             "group": "Posts",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "posts/markdown",
+              "posts/code"
             ]
           },
           {
             "group": "Design",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "design/markdown",
+              "design/code",
+              "design/images",
+              "design/settings",
+              "design/navigation",
+              "design/reusable-snippets"
             ]
           },
           {
             "group": "Audience",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "audience/markdown",
+              "audience/code",
+              "audience/images",
+              "audience/settings",
+              "audience/navigation",
+              "audience/reusable-snippets"
             ]
           }          
         ]
