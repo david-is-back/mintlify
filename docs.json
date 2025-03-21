@@ -24,7 +24,7 @@
           {
             "group": "Dashboard",
             "pages": [
-              "dashboard/markdown",
+              "dashboard/1-main",
               "dashboard/code",
               "dashboard/images",
               "dashboard/settings",
