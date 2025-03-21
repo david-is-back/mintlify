@@ -24,23 +24,14 @@
           {
             "group": "Dashboard",
             "pages": [
-              "dashboard/1-main",
-              "dashboard/code",
-              "dashboard/images",
-              "dashboard/settings",
-              "dashboard/navigation",
-              "dashboard/reusable-snippets"
+              "dashboard/1-main"
             ]
           },
           {
             "group": "Start Writing",
             "pages": [
-              "writing/markdown",
-              "writing/code",
-              "writing/images",
-              "writing/settings",
-              "writing/navigation",
-              "writing/reusable-snippets"
+              "writing/start-writing",
+              "writing/send-and-publish"
             ]
           },
           {
