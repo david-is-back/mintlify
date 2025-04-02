@@ -1,88 +1,46 @@
 ---
-title: 'Markdown Syntax'
-description: 'Text, title, and styling in standard markdown'
-icon: 'text-size'
+title: "Posts section"
+description: "This is your post manager, the place where all your posts live. "
+icon: "text-size"
 ---
 
-## Titles
+In LetterBucket, once you send an email, it becomes a **Post**. Why? Because it’s not just sent to your audience’s inboxes, it’s also **published on your website** automatically.
 
-Best used for section headers.
+![Posts Pn](/images/posts.png)
 
-```md
-## Titles
-```
+Think of it like this: the email is done (you can’t edit or resend it), but the content lives on as a web post you can keep updating.
 
-### Subtitles
+Can you make changes after sending? **Absolutely.** While the email itself is locked in (since it’s already been delivered), the web version is fully editable.
 
-Best use to subsection headers.
+You can tweak the copy, update links, add media, fix typos, whatever you need. It’s your live post, and you’re in control.
 
-```md
-### Subtitles
-```
+## Post Filter (Dropdown)
 
-<Tip>
+- Lets you filter posts by type or status (e.g. Draft, Posted, Scheduled).
+- Super helpful when you’ve got a long list and want to find something quickly.
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+## Post Cards
 
-</Tip>
+Each card represents one post and gives you quick access to its status, stats, and actions:
 
-## Text Formatting
+### 1. Draft Post
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
+- **Label:** Labeled as "Draft", this post hasn’t been sent or published yet.
+- **Stats:** Not available yet, because it hasn’t been delivered.
+- **Trash Icon:** Lets you delete the draft directly from here.
 
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
+### 2. Delivered Post
 
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
+- **Label:** Labeled as "Delivered", this one has already been sent and published.
+- **Basic Stats:**
+  - **Sent to:** Number of recipients.
+  - **CTR:** Click-through rate (how many clicked something inside the email).
+  - **Open Rate:** Percentage of people who opened the email.
 
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
+### 3. Scheduled Post
 
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
+- **Label:** Labeled as "Scheduled", this one is waiting until it reaches the programmed time. You can see this by hovering the clock icon and edit it to change the content or the date of sending. To do so, click on the 3 dots on the upper right side of the card.
 
-## Linking to Pages
+## Create Post Button (Top Right)
 
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
-
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
-
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
-
-## Blockquotes
-
-### Singleline
-
-To create a blockquote, add a `>` in front of a paragraph.
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+Click this to start a brand new post from scratch.
