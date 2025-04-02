@@ -34,8 +34,7 @@
           {
             "group": "Posts",
             "pages": [
-              "posts/markdown",
-              "posts/code"
+              "posts/posts"
             ]
           },
           {
