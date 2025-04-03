@@ -21,7 +21,7 @@
           {
             "group": "Dashboard",
             "pages": [
-              "dashboard/1-main"
+              "dashboard/main-view"
             ]
           },
           {
