@@ -36,40 +36,7 @@
             "pages": [
               "posts/posts"
             ]
-          },
-          {
-            "group": "Design",
-            "pages": [
-              "design/markdown",
-              "design/code",
-              "design/images",
-              "design/settings",
-              "design/navigation",
-              "design/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Audience",
-            "pages": [
-              "audience/markdown",
-              "audience/code",
-              "audience/images",
-              "audience/settings",
-              "audience/navigation",
-              "audience/reusable-snippets"
-            ]
-          },          
-          {
-            "group": "Settings",
-            "pages": [
-              "settings/markdown",
-              "settings/code",
-              "settings/images",
-              "settings/settings",
-              "settings/navigation",
-              "settings/reusable-snippets"
-            ]
-          }             
+          }       
         ]
       }
     ]
