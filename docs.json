@@ -36,6 +36,12 @@
             "pages": [
               "posts/posts"
             ]
+          },
+          {
+            "group": "Subscribers",
+            "pages": [
+              "subscribers/add-subscribers"
+            ]
           }       
         ]
       }
